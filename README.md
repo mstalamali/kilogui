@@ -15,6 +15,6 @@ make -j$(nproc)
 
 To run the Kilogui software please run:
 ```shell
-./src/kilogui
+sudo ./src/kilogui
 ```
 
