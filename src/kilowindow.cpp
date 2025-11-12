@@ -6,6 +6,15 @@
 #include <ftdi.h>
 #include "kilowindow.h"
 #include "packet.h"
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QGridLayout>
+#include <QLabel>
+#include <QGroupBox>
+#include <QRadioButton>
+#include <QMessageBox>
+#include <QSignalMapper>
 
 typedef struct {
     const char *name;

@@ -1,6 +1,11 @@
 #include <QtGui>
 #include <QTextEdit>
 #include "serialwin.h"
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QGridLayout>
+#include <QLabel>
 
 SerialWindow::SerialWindow(QString title, QWidget *parent): QWidget(parent) {
     text_edit = new QTextEdit();

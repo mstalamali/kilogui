@@ -1,5 +1,10 @@
 #include <QtGui>
 #include "calibrate.h"
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QGridLayout>
+#include <QLabel>
 
 CalibWindow::CalibWindow(QString title, QWidget *parent): QWidget(parent) {
     QPushButton *save_button = new QPushButton("&Save");
